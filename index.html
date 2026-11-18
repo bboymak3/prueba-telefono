@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prueba Teléfono — Editar sin PC</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+      color: #f8fafc;
+      padding: 20px;
+    }
+    .card {
+      max-width: 600px;
+      text-align: center;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 24px;
+      padding: 48px 32px;
+      backdrop-filter: blur(10px);
+    }
+    .emoji { font-size: 64px; margin-bottom: 16px; }
+    h1 { font-size: 28px; margin-bottom: 12px; }
+    p { color: #94a3b8; line-height: 1.6; margin-bottom: 8px; }
+    .counter {
+      margin-top: 24px;
+      padding: 16px;
+      background: rgba(34, 197, 94, 0.1);
+      border: 1px solid rgba(34, 197, 94, 0.3);
+      border-radius: 12px;
+      color: #4ade80;
+      font-weight: 600;
+    }
+    .timestamp { margin-top: 16px; font-size: 12px; color: #64748b; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="emoji">📱</div>
+    <h1>Prueba de Edición sin PC</h1>
+    <p>Esta página fue creada desde la PC.</p>
+    <p>Edita este archivo desde tu teléfono con github.dev y este número cambiará:</p>
+    <div class="counter">Ediciones desde el teléfono: 0</div>
+    <div class="timestamp">Creado: 2026-11-18 20:50 — desde la PC de Valen</div>
+  </div>
+</body>
+</html>
